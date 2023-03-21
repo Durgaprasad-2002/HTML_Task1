@@ -1,0 +1,59 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+.navbar{
+	align-items: center;
+	border-radius: 0px;
+}
+
+.navbar-header h2{
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+}
+.title h4{
+	font-size: 25px;
+	font-family: serif;
+	text-align: center;
+}
+.title p{
+	font-size: 18px;
+	font-family: serif;
+	text-align: center;
+}
+
+.main .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main .row .p{
+	display: flex;
+	justify-content: space-around;
+	min-width: 500px;
+	margin: 10px;
+	width: 48%;
+	height: 420px;
+}
+.main .row .p img{
+	transition: opacity 0.5s;
+	opacity: 0.4;
+	width: 550px;
+	height: 400px;
+}
+
+.main .row .col-md-6 img:hover{
+	opacity: 10;
+}
+
+
+.main .row .m p{
+	font-size: 18px;
+	padding: 30px;
+	font-family: serif;
+}
+.main .row .m p span{
+	color: grey;
+}
+
+

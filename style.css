@@ -1,0 +1,86 @@
+body{
+	font-family: sans-serif;
+}
+.navbar{
+	align-items: center;
+	border-radius: 0px;
+}
+
+.navbar-header h2{
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+}
+
+
+.main{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card{
+	transition: margin-top 0.3s;
+	margin: 20px;
+	border-radius: 10px;
+	width: 300px;
+	height: 300px;
+}
+.h1_in{
+	display: block;
+	line-height: 60px;
+	font-family: monospace;
+	text-align: center;
+	background: black;
+	color: white;
+	border-radius: 10px;
+	padding-top: 10px;
+	height: 300px;
+	width: 300px;
+	opacity: 0.7;
+}
+.card:hover > .h1_in{ display:none; }
+
+.card:hover{
+	opacity: 10;
+	margin-top: 10px;
+}
+
+#h1{
+	background-image: url(imgs/hcard1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#h2{
+	background-image: url(imgs/hcard2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+#h3{
+	background-image: url(imgs/hcard3.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+#h4{
+	background-image: url(imgs/hcard4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+#h5{
+	background-image: url(imgs/hcard5.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+#h6{
+	background-image: url(imgs/hcard6.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+/*font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;*/
